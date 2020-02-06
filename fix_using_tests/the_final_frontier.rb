@@ -15,7 +15,7 @@ end
 
 def greet_crew (crew)
   greeted = crew.map {|crew_member| "Hello #{crew_member}."}
-  binding.pry
+  return greeted
 end
 
 def engage
