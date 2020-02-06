@@ -14,8 +14,7 @@ def crew
 end
 
 def greet_crew (crew)
-  greeted = crew.map {|crew_member| "Hello #{crew_member}."}
-  return greeted
+  crew.map {|crew_member| "Hello #{crew_member}."}
 end
 
 def engage
